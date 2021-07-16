@@ -1,0 +1,33 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#app img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid;
+}
+#app img.male {
+    color: skyblue;
+}
+#app img.female {
+    color: pink;
+}
+#app button {
+    background: #000;
+    color: #fff;
+    padding: 13px 40px;
+    border: none;
+}
+#app button.male {
+    background: skyblue;
+}
+#app button.female {
+    background: pink;
+}
